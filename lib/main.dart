@@ -39,6 +39,11 @@ class MyApp extends ConsumerWidget {
           displayLarge: const TextStyle(color: Colors.tealAccent),
           titleMedium: const TextStyle(color: Colors.tealAccent),
         ),
+        textSelectionTheme: const TextSelectionThemeData(
+          cursorColor: Colors.tealAccent,
+          selectionHandleColor: Colors.tealAccent,
+          selectionColor: Color.fromARGB(255, 91, 121, 114),
+        ),
       ),
       home: const IdealListPage(),
     );
