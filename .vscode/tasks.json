@@ -8,7 +8,7 @@
 				"build",
 				"apk",
 				"--dart-define",
-                "env=.env.development",
+                "env=.env.production",
 			],
 			"group": {
 				"kind": "build",
